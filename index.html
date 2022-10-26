@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <title>Martin Gaidos</title>
+</head>
+
+<body id="body">
+
+    <img src="/night-theme-img/stars.jpg" class="stars-background" id="stars-background" alt="Night mode pozadí">
+
+
+
+    <header class="header">
+        <div class="hamburger-menu" id="hamburger-menu">
+            <span id="first-child"></span>
+            <span id="second-child"></span>
+            <span id="third-child"></span>
+        </div>
+
+        <div class="night-mode-switch">
+            <img class="night-mode not-clicked" src="/img/moon.png" id="night-mode-switch" alt="Tlačítko měsíc">
+        </div>
+        <nav class="navigation" id="navigation">
+            <a href="#home-section" id="home-section-nav" class="navigation-item active">Domů</a>
+            <a href="#about-section" id="about-section-nav" class="navigation-item">O&nbspmně</a>
+            <a href="#project-section" id="project-section-nav" class="navigation-item">Projekty</a>
+            <a href="#contact-section" id="contact-section-nav" class="navigation-item">Kontakt</a>
+        </nav>
+    </header>
+
+
+    <section class="home-section" id="home-section">
+        <div class="home-title-wrapper" id="home-title-wrapper">
+            <h1 id="home-title" class="home-title">Ahoj, já jsem Martin.</h1>
+        </div>
+
+
+        <div class="home-picture-wrapper">
+            <img class="coding-img" id="coding-img" src="/img/custom-coding.png" alt="">
+            <h2 class="home-title-second">Frontend vývojář.</h2>
+            <div class="arrow-img-wrapper">
+                <img class="arrow-img" id="arrow-img" src="/img/down-arrow.png" alt="Šipka dolů">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about-section">
+
+        <div class="about-title-wrapper" id="about-title-wrapper">
+            <h2 class="about-title">O mně</h2>
+        </div>
+
+        <div class="about-wrapper">
+            <div class="about-description">
+
+                <p>
+                    Jmenuju se Martin Gaidos a věnuji se programování www aplikací v Javascriptu.
+                    Základy jazyka jsem se naučil letos v semestrálním kurzu od ITNetwork a ve volném čase svoje znalosti dále rozšiřuji. Programování mě velmi baví, rád bych své znalosti uplatnil v praxi a dále je rozvíjel.
+                </p>
+
+                <a href="/cv/CV - Martin Gaidos.pdf" class="download-cv" download="Martin Gaidos - CV">Životopis</a>
+
+            </div>
+
+            <div class="about-img-wrapper">
+                <img src="/img/software-developer.png" alt="Software developer" id="developer-img">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="project-section" id="project-section">
+        <div class="project-title-wrapper" id="project-title-wrapper">
+            <h2 class="project-title">Projekty</h2>
+        </div>
+
+        <div class="project-wrapper" id="project-wrapper">
+
+            <div class="project-img-wrapper" id="0">
+                <p>Osobní web</p>
+                <img src="/img/muj-web.png" alt="Můj web">
+            </div>
+
+            <div class="project-img-wrapper" id="1">
+                <p>Projekt ke zkoušce.</p>
+                <img src="/img/pojisteni.png" alt="Projekt - pojištění">
+            </div>
+
+            <div class="modal-container" id="modal-container">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <div class="contact-title-wrapper" id="contact-title-wrapper">
+            <h2 class="contact-title" id="contact">Kontakt</h2>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-img-wrapper" id="contact-img-wrapper">
+                <a href="https://github.com/mgaidos/" target="_blank"><img src="/img/github.png" id="github-img"
+                        alt="Github"></a>
+                <a href="mailto:m.gaidos@seznam.cz"><img src="/img/email.png" id="email-img" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/martin-gaidos-94a679251/" target="_blank"><img
+                        src="/img/linkedin.png" id="linkedin-img" alt="Linkedin"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-div">
+            <p id="sign">&copy; Martin Gaidos, 2022</p>
+            <details>
+                <summary id="summary">Attribution</summary>
+                <a href="https://www.flaticon.com/free-icons/software-developer" title="software developer icons"
+                    target="_blank">Software developer icons created by ultimatearm - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" target="_blank">Linkedin
+                    icons created by Freepik - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/github" title="github icons" target="_blank">Github icons
+                    created by Pixel perfect - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/email" title="email icons" target="_blank">Email icons
+                    created by Uniconlabs - Flaticon</a>
+                <a href="https://www.flaticon.com/free-stickers/coding" title="coding stickers" target="_blank">Coding
+                    stickers created by kerismaker - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons" target="_blank">Down
+                    arrow icons created by Smashicons - Flaticon</a>
+                <a href="https://www.freeiconspng.com/img/44662" target="_blank">moon png </a>
+                <a href="https://www.pexels.com/photo/silhouette-of-grass-under-white-sky-925743/"
+                    target="_blank">footer background</a>
+            </details>
+        </div>
+
+    </footer>
+    <script src="/script.js"></script>
+    <script src="/projects.js"></script>
+</body>
+
+</html>
